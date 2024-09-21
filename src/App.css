@@ -127,7 +127,14 @@ body {
 	}
 }
 
-.loader h1{
+@media only screen and (max-width: 330px) {
+	.texts .windCondition {
+		margin-top: 15px;
+		gap: 15px;
+	}
+}
+
+.loader h1 {
 	text-align: center;
 	margin-top: 50px;
 }

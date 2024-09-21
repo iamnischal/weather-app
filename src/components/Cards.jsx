@@ -11,7 +11,9 @@ const Cards = ({ day }) => {
 				<p className='day'>{getDay(day.date)}</p>
 				<img src={day.day.condition.icon} alt={day.day.condition.text} />
 				<p className='tmp'>
-					{day.day.maxtemp_c}<sup>°</sup>/{day.day.maxtemp_f}<sup>°</sup>
+					{day.day.mintemp_c}
+					<sup>°</sup>/{day.day.maxtemp_c}
+					<sup>°</sup>
 				</p>
 			</div>
 		</>
