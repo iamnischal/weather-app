@@ -13,7 +13,7 @@ const App = () => {
 	const apiKey = "a66c1758925b4294a64121310221512 ";
 
 	const fetchData = async (city) => {
-		const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=5&aqi=no`;
+		const apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=5&aqi=no`;
 		setLoading(true);
 		setError(null);
 		try {
